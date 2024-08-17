@@ -15,7 +15,7 @@ public class constructorChaining {
   }
   /*
    * Rules for constructor chaining -> only the first line of the constructor can call the other constructor
-   * recursive constructor invocation is not allowed
+   * recursive constructor invocation is not allowed a-b-a....
    * chaning can be done in any order a-b-c or b-c-a 
    */
   public static void main(String[] args) {
